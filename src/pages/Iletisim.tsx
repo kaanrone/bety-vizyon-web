@@ -100,8 +100,9 @@ const Iletisim = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Adres</h3>
                   <p className="text-muted-foreground">
-                    Sanayi Mahallesi, Ambalaj Caddesi No:123<br />
-                    34000 İstanbul, Türkiye
+                    100. Yıl Mah. Matbaacılar Sitesi 5. Cad. No:17/1<br />
+                    İç Kapı No:319 Bağcılar/İstanbul<br />
+                    Istanbul, Turkey
                   </p>
                 </div>
               </div>
