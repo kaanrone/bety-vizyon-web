@@ -2,41 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Bety Ambalaj Design System - Professional Packaging Company */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Base colors - Professional blue-gray palette */
+    --background: 240 10% 98%;
+    --foreground: 210 15% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 210 15% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 15% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Deep professional blue */
+    --primary: 210 85% 25%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 210 85% 30%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Warm gray */
+    --secondary: 210 8% 88%;
+    --secondary-foreground: 210 15% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted tones */
+    --muted: 210 15% 95%;
+    --muted-foreground: 210 10% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Orange for CTAs */
+    --accent: 25 95% 55%;
+    --accent-foreground: 0 0% 100%;
+    --accent-hover: 25 95% 50%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Supporting colors */
+    --success: 140 60% 45%;
+    --warning: 45 95% 55%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Borders and inputs */
+    --border: 210 15% 85%;
+    --input: 210 15% 92%;
+    --ring: 210 85% 25%;
 
-    --radius: 0.5rem;
+    /* Industry-specific colors */
+    --industrial: 200 15% 35%;
+    --industrial-light: 200 15% 75%;
+    --packaging: 210 20% 20%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(210 85% 25%), hsl(210 85% 35%));
+    --gradient-hero: linear-gradient(135deg, hsl(210 85% 25% / 0.9), hsl(210 85% 35% / 0.8));
+    --gradient-accent: linear-gradient(135deg, hsl(25 95% 55%), hsl(25 95% 60%));
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px hsl(210 15% 12% / 0.1);
+    --shadow-md: 0 4px 12px hsl(210 15% 12% / 0.15);
+    --shadow-lg: 0 10px 25px hsl(210 15% 12% / 0.2);
+    --shadow-hero: 0 20px 40px hsl(210 85% 25% / 0.3);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -100,6 +125,24 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  }
+
+  /* Smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Line clamp utility */
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
   }
 }
