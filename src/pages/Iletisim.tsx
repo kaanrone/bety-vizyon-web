@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
+import MapComponent from "@/components/MapComponent";
 
 const Iletisim = () => {
   const [formData, setFormData] = useState({
@@ -100,8 +101,9 @@ const Iletisim = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Adres</h3>
                   <p className="text-muted-foreground">
-                    Sanayi Mahallesi, Ambalaj Caddesi No:123<br />
-                    34000 İstanbul, Türkiye
+                    100. Yıl Mah. Matbaacılar Sitesi 5. Cad.<br />
+                    No:17/1 İç Kapı No:319<br />
+                    Bağcılar/İstanbul, Turkey
                   </p>
                 </div>
               </div>
@@ -185,16 +187,7 @@ const Iletisim = () => {
           <h2 className="text-3xl font-bold text-center text-foreground mb-8">
             Konumumuz
           </h2>
-          <div className="bg-card rounded-lg overflow-hidden shadow-lg h-96">
-            {/* Placeholder for Google Maps - In real implementation, you would integrate Google Maps */}
-            <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-              <div className="text-center text-muted-foreground">
-                <MapPin className="h-12 w-12 mx-auto mb-4" />
-                <p className="text-lg font-semibold">Google Maps</p>
-                <p className="text-sm">Harita yüklenecek</p>
-              </div>
-            </div>
-          </div>
+          <MapComponent />
         </div>
       </section>
     </div>
