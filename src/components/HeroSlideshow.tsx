@@ -9,12 +9,12 @@ const slides = [
   {
     image: hero1,
     title: "Profesyonel Ambalaj Çözümleri",
-    subtitle: "Modern teknoloji ile kaliteli ambalaj hizmetleri",
+    subtitle: "Siz üretiminizi yaparken, biz markanızı görünür kılarız.",
   },
   {
     image: hero2,
     title: "Kalite ve İnovasyonun Buluşması",
-    subtitle: "İşinizi büyütmek için güvenilir ambalaj partneri",
+    subtitle: "Siz üretiminizi yaparken, biz markanızı görünür kılarız.",
   },
 ];
 

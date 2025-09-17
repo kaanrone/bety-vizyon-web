@@ -149,7 +149,7 @@ const Iletisim = () => {
 
                 <div className="space-y-4">
                   <a
-                    href="https://wa.me/905551234567?text=Merhaba, ürünleriniz hakkında bilgi almak istiyorum."
+                    href="https://wa.me/905428327858?text=Merhaba, ürünleriniz hakkında bilgi almak istiyorum."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center space-x-3 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"

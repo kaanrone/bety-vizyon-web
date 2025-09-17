@@ -109,7 +109,7 @@ const Urunlerimiz = () => {
             çözümlerine ihtiyacınız var mı? Size özel çözümler üretebiliriz.
           </p>
           <a
-            href="https://wa.me/905551234567?text=Özel%20ambalaj%20çözümleri%20hakkında%20bilgi%20almak%20istiyorum."
+            href="https://wa.me/905428327858?text=Özel%20ambalaj%20çözümleri%20hakkında%20bilgi%20almak%20istiyorum."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-3 bg-accent text-accent-foreground rounded-lg font-semibold hover:bg-accent-hover transition-colors duration-200"
