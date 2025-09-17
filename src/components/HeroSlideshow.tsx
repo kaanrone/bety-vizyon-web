@@ -55,7 +55,6 @@ const HeroSlideshow = () => {
             className="absolute inset-0 bg-cover bg-center bg-no-repeat animate-hero-slide"
             style={{ backgroundImage: `url(${slide.image})` }}
           />
-          <div className="absolute inset-0 bg-gradient-hero" />
           
           {/* Content */}
           <div className="relative h-full flex flex-col justify-center px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
