@@ -56,7 +56,7 @@ const Footer = () => {
 
         <div className="border-t border-industrial-light/20 mt-8 pt-8 text-center">
           <p className="text-industrial-light">
-            © 2024 Bety Ambalaj. Tüm hakları saklıdır.
+            © 2025 Bety Ambalaj. Tüm hakları saklıdır.
           </p>
         </div>
       </div>
