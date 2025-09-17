@@ -77,7 +77,7 @@ const Iletisim = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">WhatsApp İletişim</h3>
-                  <p className="text-muted-foreground">+90 542 832 78 58</p>
+                  <p className="text-muted-foreground">+90 542 832 78 59</p>
                   <p className="text-sm text-green-600 font-medium">Anında mesajlaşma imkanı</p>
                 </div>
               </div>
@@ -149,7 +149,7 @@ const Iletisim = () => {
 
                 <div className="space-y-4">
                   <a
-                    href="https://wa.me/905428327858?text=Merhaba, ürünleriniz hakkında bilgi almak istiyorum."
+                    href="https://wa.me/905428327859?text=Merhaba, ürünleriniz hakkında bilgi almak istiyorum."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center space-x-3 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
@@ -161,7 +161,7 @@ const Iletisim = () => {
                   </a>
                   
                   <p className="text-sm text-muted-foreground">
-                    +90 542 832 78 58
+                    +90 542 832 78 59
                   </p>
                 </div>
 
