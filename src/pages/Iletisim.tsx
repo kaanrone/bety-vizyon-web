@@ -187,14 +187,16 @@ const Iletisim = () => {
             Konumumuz
           </h2>
           <div className="bg-card rounded-lg overflow-hidden shadow-lg h-96">
-            {/* Placeholder for Google Maps - In real implementation, you would integrate Google Maps */}
-            <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-              <div className="text-center text-muted-foreground">
-                <MapPin className="h-12 w-12 mx-auto mb-4" />
-                <p className="text-lg font-semibold">Google Maps</p>
-                <p className="text-sm">Harita yüklenecek</p>
-              </div>
-            </div>
+            <iframe
+              src="https://maps.google.com/maps?q=100.%20Y%C4%B1l%20Mah.%20Matbaac%C4%B1lar%20Sitesi%205.%20Cad.%20No:17/1%20%C4%B0%C3%A7%20Kap%C4%B1%20No:319%20Ba%C4%9Fc%C4%B1lar/%C4%B0stanbul%20Istanbul,%20Turkey&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Betyam Ambalaj Konum"
+            />
           </div>
         </div>
       </section>
