@@ -149,9 +149,10 @@ const Iletisim = () => {
 
                 <div className="space-y-4">
                   <a
-                    href="https://wa.me/905428327859?text=Merhaba, ürünleriniz hakkında bilgi almak istiyorum."
+                    href="https://wa.me/905428327859?text=Merhaba%2C%20%C3%BCr%C3%BCnleriniz%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => console.log("Contact page WhatsApp button clicked")}
                     className="inline-flex items-center justify-center space-x-3 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
                   >
                     <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
