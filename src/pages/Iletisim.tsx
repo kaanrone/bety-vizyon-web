@@ -77,7 +77,7 @@ const Iletisim = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">WhatsApp İletişim</h3>
-                  <p className="text-muted-foreground">+90 555 123 45 67</p>
+                  <p className="text-muted-foreground">+90 542 832 78 58</p>
                   <p className="text-sm text-green-600 font-medium">Anında mesajlaşma imkanı</p>
                 </div>
               </div>
@@ -88,8 +88,8 @@ const Iletisim = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">E-posta</h3>
-                  <p className="text-muted-foreground">info@betyambalaj.com</p>
-                  <p className="text-muted-foreground">satis@betyambalaj.com</p>
+                  <p className="text-muted-foreground">bayram@betyambalaj.com.tr</p>
+                  <p className="text-muted-foreground">ege@betyambalaj.com.tr</p>
                 </div>
               </div>
 
@@ -161,7 +161,7 @@ const Iletisim = () => {
                   </a>
                   
                   <p className="text-sm text-muted-foreground">
-                    +90 555 123 45 67
+                    +90 542 832 78 58
                   </p>
                 </div>
 
