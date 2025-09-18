@@ -88,8 +88,7 @@ const Iletisim = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">E-posta</h3>
-                  <p className="text-muted-foreground">bayram@betyambalaj.com.tr</p>
-                  <p className="text-muted-foreground">ege@betyambalaj.com.tr</p>
+                  <p className="text-muted-foreground">info@betyambalaj.com.tr</p>
                 </div>
               </div>
 
