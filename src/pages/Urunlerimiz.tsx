@@ -39,13 +39,93 @@ const products = [
     image: product3,
     description: "Online satış için optimize edilmiş, güvenli kargo ambalaj çözümleri.",
   },
+  {
+    id: 7,
+    name: "Gıda Ambalajları",
+    image: product1,
+    description: "Gıda güvenliği standartlarına uygun, sağlıklı ambalaj malzemeleri.",
+  },
+  {
+    id: 8,
+    name: "Kozmetik Ambalajları",
+    image: product2,
+    description: "Kozmetik ürünler için şık ve fonksiyonel ambalaj çözümleri.",
+  },
+  {
+    id: 9,
+    name: "Elektronik Ambalajları",
+    image: product3,
+    description: "Elektronik cihazlar için antistatik ve koruyucu özel ambalajlar.",
+  },
+  {
+    id: 10,
+    name: "Tekstil Ambalajları",
+    image: product1,
+    description: "Giyim ve tekstil ürünleri için kaliteli ve şık ambalaj seçenekleri.",
+  },
+  {
+    id: 11,
+    name: "Cam Şişeler",
+    image: product2,
+    description: "Farklı kapasitelerde cam şişe ve kavanoz seçenekleri.",
+  },
+  {
+    id: 12,
+    name: "Metal Kutular",
+    image: product3,
+    description: "Dayanıklı metal kutular ve konserve kapları.",
+  },
+  {
+    id: 13,
+    name: "Kargo Kutuları",
+    image: product1,
+    description: "Farklı boyutlarda güçlü kargo ve sevkiyat kutuları.",
+  },
+  {
+    id: 14,
+    name: "Hediye Kutuları",
+    image: product2,
+    description: "Özel günler için dekoratif ve şık hediye kutuları.",
+  },
+  {
+    id: 15,
+    name: "Medikal Ambalajları",
+    image: product3,
+    description: "Tıbbi cihaz ve ilaç ambalajları için steril çözümler.",
+  },
+  {
+    id: 16,
+    name: "Tarım Ürünleri Ambalajları",
+    image: product1,
+    description: "Tarım ürünleri için havalandırmalı ve koruyucu ambalajlar.",
+  },
+  {
+    id: 17,
+    name: "Otomotiv Ambalajları",
+    image: product2,
+    description: "Otomotiv yedek parçaları için özel tasarım ambalaj çözümleri.",
+  },
+  {
+    id: 18,
+    name: "Temizlik Ürünleri Ambalajları",
+    image: product3,
+    description: "Temizlik ve kimyasal ürünler için güvenli ambalaj sistemleri.",
+  },
 ];
 
 const Urunlerimiz = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-primary text-white">
+      <section 
+        className="relative py-20 px-4 sm:px-6 lg:px-8 text-white"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${product1})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
             Ürünlerimiz
